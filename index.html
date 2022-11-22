@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Book using flex</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    
+       body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: gainsboro;
+       }
+        nav ul li{
+           
+            list-style-type: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: larger;
+            font-weight: 500; 
+            display: inline;
+        }
+    
+        td{
+            font-weight: 500;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        .flexleft{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        }
+        .flexend{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        .flexend{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        .flexcenter{
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+        }
+      
+    </style>
+</head>
+<body>
+    <nav class="flexleft">
+        <ul>
+            <li><img src="./asset/ebook.jpg" alt="" height="50px"></li>
+            <li>Online E-Book Store </li>
+        </ul>
+    </nav>
+
+    <div class="flexend" >
+        <h1>Get Instant Access to Read Full Book</h1> 
+        <input type="search" name="" id="" placeholder="Enter the Book Name"> <br> Search for E-Books
+        
+    </div>
+
+    <div class="flexcenter">
+        <table>
+           <h2>Popular Books</h2>
+            <tr>
+                <td><img src="./asset/b6.jpg" alt=""></td>
+                
+                <td><img src="./asset/b3.jpg" alt=""></td>
+                <td><img src="./asset/b4.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="">Buy - $56</a>  <br> <br>
+                    <a href="">Rent  -$20</a>
+                </td>
+                <td>
+                    <a href="">Buy - $56</a>  <br> <br>
+                    <a href="">Rent - $20</a>
+                </td>
+                <td>
+                    <a href="">Buy - $56</a>  <br> <br>
+                    <a href="">Rent - $20</a>
+                </td>
+            </tr>
+            <tr>
+                <td>New York Times Best Seller <br>
+                    Good Morning America Buzz Pick 
+                     one of the best book of year</td>
+                <td>The Lord of the Rings is an epic by English author and scholar J. R. R. Tolkien. <br>Set in Middle-earth, intended to be Earth at some time in the distant past</td>
+                <td>International and #1 New York Times bestselling author of romance, <br>YA, thriller, women's fiction and woman's struggle to break the cycle of abuse and rise</td>
+            </tr>
+           
+        </table>
+    </div>
+    <div class="flexcenter">
+        <table>
+            <h2>Trending Now</h2>
+            <div class="flex">
+             <tr>
+                 <td><img src="./asset/i1.jpg" alt=""></td>
+                 
+                 <td><img src="./asset/h1.jpg" alt=""></td>
+                 <td><img src="./asset/t1.jpg" alt=""></td>
+             </tr>
+             <tr>
+                 <td>
+                     <a href="">Buy - $56</a>  <br> <br>
+                     <a href="">Rent  -$20</a>
+                 </td>
+                 <td>
+                     <a href="">Buy - $56</a>  <br> <br>
+                     <a href="">Rent - $20</a>
+                 </td>
+                 <td>
+                     <a href="">Buy - $56</a>  <br> <br>
+                     <a href="">Rent - $20</a>
+                 </td>
+             </tr>
+             <tr>
+                 <td>War and Peace is a literary work by the Russian author Leo Tolstoy <br>
+                    that mixes fictional narrative with chapters on history and philosophy.
+
+                 </td>
+                 <td>The Lord of the Rings is an epic by English author and scholar J. R. R. Tolkien. <br>Set in Middle-earth, intended to be Earth at some time in the distant past</td>
+                 <td>International and #1 New York Times bestselling author of romance, <br>YA, thriller, women's fiction and woman's struggle to break the cycle of abuse and rise</td>
+             </tr>
+            </div>
+         </table>
+        </div>
+        <div class="flexcenter">
+         <table>
+            <h2>Romantic</h2>
+            
+             <tr>
+                 <td><img src="./asset/r1.jpg" alt=""></td>
+                 
+                 <td><img src="./asset/r2.jpg" alt=""></td>
+                 <td><img src="./asset/r3.jpg" alt=""></td>
+             </tr>
+             <tr>
+                 <td>
+                     <a href="">Buy - $56</a>  <br> <br>
+                     <a href="">Rent  -$20</a>
+                 </td>
+                 <td>
+                     <a href="">Buy - $56</a>  <br> <br>
+                     <a href="">Rent - $20</a>
+                 </td>
+                 <td>
+                     <a href="">Buy - $56</a>  <br> <br>
+                     <a href="">Rent - $20</a>
+                 </td>
+             </tr>
+             <tr>
+                 <td>New York Times Best Seller <br>
+                     Good Morning America Buzz Pick 
+                      ONE OF THE BEST BOOKS OF THE YEAR</td>
+                 <td>The Lord of the Rings is an epic by English author and scholar J. R. R. Tolkien. <br>Set in Middle-earth, intended to be Earth at some time in the distant past</td>
+                 <td>International and #1 New York Times bestselling author of romance, <br>YA, thriller, women's fiction and woman's struggle to break the cycle of abuse and rise</td>
+             </tr>
+            
+         </table>
+        
+    </div>
+
+
+    
+</body>
+</html>
